@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+.home-title {
+  font-family: "Press Start 2P", cursive; }
+
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: none;
+  align-items: center; }
+  .row .row::after {
+    display: table;
+    clear: both; }
+
+* {
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=app.css.map */
