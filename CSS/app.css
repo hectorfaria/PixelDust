@@ -1,6 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
-.home-title {
-  font-family: "Press Start 2P", cursive; }
+.body {
+  font-family: -apple-system-, system-ui, BlinkMacSsystemFont, "Segoe UI";
+  font-size: 1rem;
+  line-height: 1.5rem; }
 
 .row {
   display: flex;
@@ -13,5 +15,109 @@
 
 * {
   box-sizing: border-box; }
+
+.container {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  display: block; }
+
+.banner-container {
+  padding: 20px;
+  padding-right: 0;
+  background-color: #161616;
+  color: #fff; }
+
+.banner-container {
+  background: url("https://i.redd.it/wmm9yrtz6uay.gif"); }
+
+.home-title {
+  font-family: "Press Start 2P", cursive;
+  font-size: 40px;
+  font-weight: 700;
+  margin: -50px 0 20px;
+  text-shadow: 4px 5px black; }
+
+.text-banners {
+  text-align: center;
+  color: #fff;
+  background-color: #161616;
+  margin-right: 100px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border-radius: 7px; }
+
+.b-text {
+  font-size: 1.2rem;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  font-family: "Impact", serif;
+  line-height: 1.7rem; }
+
+.btn-dark {
+  font-family: "Press Start 2P", cursive;
+  margin-top: 20px;
+  margin-left: 100px; }
+  .btn-dark:hover {
+    color: #990528; }
+
+.b-card {
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+  background-color: #161616;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
+  .b-card .b-title {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 15px; }
+    .b-card .b-title .b-video {
+      margin: 0 auto 15px; }
+
+.card-btn {
+  margin-left: 5px;
+  margin-right: 5px; }
+  .card-btn .btn-primary {
+    font-family: "Press Start 2P", cursive; }
+
+.nav-header {
+  padding: 0 0 10px;
+  background-color: #161616; }
+  .nav-header .container {
+    padding: 10px 15px 0;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #161616; }
+
+.logo {
+  margin: auto;
+  display: block;
+  padding-left: 0; }
+
+.nav-menu {
+  float: inherit;
+  text-align: center;
+  margin: 5px 0 0; }
+  .nav-menu .nav-menu-list {
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .nav-menu .nav-menu-list .nav-item {
+      display: inline-block;
+      margin: 0;
+      vertical-align: top; }
+      .nav-menu .nav-menu-list .nav-item .nav-a {
+        display: block;
+        padding: 5px 10px;
+        text-decoration: none;
+        color: #b0adaa;
+        font-family: "Impact", serif;
+        border: 1px solid transparent;
+        text-transform: uppercase; }
+        .nav-menu .nav-menu-list .nav-item .nav-a:hover {
+          color: #000; }
 
 /*# sourceMappingURL=app.css.map */
