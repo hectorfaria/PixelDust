@@ -1,4 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+.center-block, .btn-third, .gear-img, .b-video-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
 .body {
   font-family: -apple-system-, system-ui, BlinkMacSsystemFont, "Segoe UI";
   font-size: 1rem;
@@ -26,11 +31,29 @@
 .banner-container {
   padding: 20px;
   padding-right: 0;
-  background-color: #161616;
-  color: #fff; }
-
-.banner-container {
+  color: #fff;
   background: url("https://i.redd.it/wmm9yrtz6uay.gif"); }
+
+.col-sm-12 .home-title {
+  padding-top: 35px; }
+.col-sm-12 .btn-danger {
+  margin-bottom: 50px; }
+.col-sm-12 .b-text {
+  margin-top: 50px; }
+
+.splitter-container {
+  padding: 40px 0 50px;
+  background-color: #161616;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
+
+.about-container {
+  background-image: url("https://wallpaperlayer.com/img/2015/9/pixel-wallpaper-background-8221-8538-hd-wallpapers.jpg");
+  background-size: contain;
+  min-height: 540px; }
+
+.about-container[div=col-sm-12] {
+  background-size: cover; }
 
 .home-title {
   font-family: "Press Start 2P", cursive;
@@ -56,14 +79,8 @@
   font-family: "Impact", serif;
   line-height: 1.7rem; }
 
-.btn-dark {
-  font-family: "Press Start 2P", cursive;
-  margin-top: 20px;
-  margin-left: 100px; }
-  .btn-dark:hover {
-    color: #990528; }
-
 .b-card {
+  margin-top: 5px;
   padding: 40px;
   text-align: center;
   color: #fff;
@@ -79,8 +96,63 @@
 .card-btn {
   margin-left: 5px;
   margin-right: 5px; }
-  .card-btn .btn-primary {
-    font-family: "Press Start 2P", cursive; }
+
+.about-title {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1.8rem;
+  color: #000;
+  margin: 0 0 30px;
+  margin-top: 50px; }
+
+.about-text {
+  margin: 0 0 50px;
+  font-size: 22px;
+  font-weight: bolder;
+  color: #fff;
+  text-shadow: 2px 2px #000; }
+
+.btn-third {
+  margin-top: 10px;
+  margin-left: 120px;
+  margin-bottom: 10px; }
+
+.fa-twitter {
+  color: #0084b4; }
+
+#page-footer {
+  clear: both;
+  background: #161616;
+  padding: 25px 0 40px;
+  position: relative;
+  width: 100%;
+  overflow: hidden; }
+
+.footer-container {
+  padding: 0 10%; }
+  .footer-container .lego-footer {
+    font-size: 1rem;
+    font-weight: 200;
+    color: #b0adaa; }
+    .footer-container .lego-footer .footerwraper {
+      display: inline-block;
+      padding: 30px;
+      flex-wrap: wrap;
+      cursor: pointer; }
+
+.footer-link {
+  padding-left: 10px;
+  margin-right: 36px;
+  color: #b0adaa;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 200;
+  font-family: "Impact", serif; }
+  .footer-link:hover {
+    color: #990528;
+    text-decoration: none; }
+
+.fa {
+  padding-left: 80px; }
 
 .nav-header {
   padding: 0 0 10px;
@@ -119,5 +191,62 @@
         text-transform: uppercase; }
         .nav-menu .nav-menu-list .nav-item .nav-a:hover {
           color: #000; }
+
+.btn {
+  font-family: "Press Start 2P", cursive;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: normal;
+  line-height: 1.5rem;
+  text-align: center;
+  font-size: 1rem;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  transition: all, 0.2s ease-in-out;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  font-size: 1rem; }
+
+.buy-btn-md {
+  padding: 12px 35px;
+  border-radius: 30px;
+  font-size: 1.8rem;
+  background-color: firebrick; }
+  .buy-btn-md:hover {
+    color: #fff; }
+
+.btn-dark {
+  padding: 18px 15px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-family: "Press Start 2P", cursive;
+  margin-top: 20px;
+  margin-left: 100px; }
+  .btn-dark:hover {
+    color: #990528; }
+
+.buy-btn-lg {
+  color: #e3e3e3;
+  background-color: #7c7c7c;
+  border-color: #161616; }
+  .buy-btn-lg:hover {
+    color: #e3e3e3;
+    background-color: #636363;
+    border-color: black; }
+
+.b-video-img {
+  width: 100%;
+  padding: 30px 0 40px; }
+
+.img-item {
+  display: inline-block;
+  margin: 0 30px 40px;
+  vertical-align: middle;
+  padding: 0; }
+
+.img-list {
+  margin: 0 -20px -40px;
+  padding: 0; }
 
 /*# sourceMappingURL=app.css.map */

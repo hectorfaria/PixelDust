@@ -1,0 +1,32 @@
+.btn
+  font-family: $press-start-font
+  display: inline-block
+  cursor: pointer
+  font-weight: $font-weight-normal
+  line-height: $base-line-height
+  text-align: center
+  font-size: $font-base
+  vertical-align: middle
+  border: $border-width solid transparent
+  transition: $btn-transition
+  border-radius: $border-radius
+  +btn-sizing($btn-padding-y,$btn-padding-x, $font-base, $border-radius)
+
+.buy-btn-md
+  +btn-sizing(12px, 35px, $font-large, 30px)
+  background-color: firebrick
+  &:hover
+    color: $white
+
+
+.btn-dark
+  +btn-sizing(18px, 15px, $font-base, 30px)
+  font-family: $press-start-font
+  margin-top: 20px
+  margin-left: 100px
+  &:hover
+    color: $c-primary
+
+
+.buy-btn-lg
+  +btn-variant($btn-main-color, lighten($btn-dark-bg, 40%), $btn-border-dark)
